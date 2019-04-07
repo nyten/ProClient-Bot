@@ -11,6 +11,9 @@ exports.initializeMessage = function(client, message){
     switch(command){
         // 07/04/2019, i didn't add parameters to method, so if you would like 
         // for exemple call this: helpJS.method(user), set the user in help.js, like this function(user)..
+        case 'exit':
+            process.exit(1);
+        break;
         case 'help':
         // We check the command .help
         var helpJS = require('./commands/help.js');

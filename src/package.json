@@ -1,0 +1,10 @@
+{
+    "name": "PrøBot",
+    "version": "1.0.0",
+    "description": "The official open source PrøBot for everyone!",
+    "main": "bot.js",
+    "author": "Giovanni Outerleys (Japanes | Gio') | Vøsk.",
+    "dependencies": {
+        "discord.js": "^11.4.2"
+    }
+}
