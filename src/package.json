@@ -5,6 +5,7 @@
     "main": "bot.js",
     "author": "Giovanni Outerleys (Japanes | Gio') | Vøsk.",
     "dependencies": {
-        "discord.js": "^11.4.2"
+        "discord.js": "^11.4.2",
+        "firebase-admin": "^7.2.0"
     }
 }
