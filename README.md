@@ -3,7 +3,7 @@ Discord bot running on ProClient Discord.
 
 Hi everyone ! This is the Discord bot of PrøClient Discord
 
-> We adding all time new and features on this page
+> We are adding all time new and features on this page
 
 
 ## Use the bot
