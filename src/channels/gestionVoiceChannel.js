@@ -1,7 +1,6 @@
 exports.method = function(client, user){
     //This method is called all time when action has done
     for(let i = 2; i < 10; i++){
-        console.log("i equal: "+i);
         if(foundChannel(user, 'Vocal #'+[i])){
             //if this chan exist, check if contains person or not
             var checkChannel = user.guild.channels.find(chan => chan.name === 'Vocal #'+[i])
@@ -10,9 +9,9 @@ exports.method = function(client, user){
             if(checkChannelCount==0){
                 //delet channel
                 checkChannel.delete()
-                .then('We just deleted this channel: ' + checkChannel + '.');
+                .then('We just deleted this channel: ' + checkChannelID + '.');
             }
-            return;
+            //return;
         }
     }
 }
