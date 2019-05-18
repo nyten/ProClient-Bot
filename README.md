@@ -25,7 +25,13 @@ Change this for your own server.
 ```
 
 
+## What does the bot do ?
 
+This bot manage alot of things, like : 
+
+[...]
+
+> This **list** will be updated.
 
 
 > This **read me** will be updated.
